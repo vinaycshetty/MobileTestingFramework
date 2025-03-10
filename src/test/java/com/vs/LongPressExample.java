@@ -15,14 +15,14 @@ import org.testng.annotations.Test;
  **/
 public class LongPressExample extends BaseTest {
     @Test
-    public void LongPressTest(){
+    public void LongPressTest() {
         driver.findElement(AppiumBy.accessibilityId("Views")).click();
         driver.findElement(By.xpath("//android.widget.TextView[@content-desc='Expandable Lists']")).click();
         driver.findElement(AppiumBy.accessibilityId("1. Custom Adapter")).click();
         WebElement element = driver.findElement(By.xpath("//android.widget.TextView[@text='People Names']"));
         LongPressAction(element);
         String menuText = driver.findElement(By.id("android:id/title")).getText();
-        Assert.assertEquals(menuText,"Sample menu");
+        Assert.assertEquals(menuText, "Sample menu");
         driver.findElement(By.id("android:id/title")).isDisplayed();
 
     }

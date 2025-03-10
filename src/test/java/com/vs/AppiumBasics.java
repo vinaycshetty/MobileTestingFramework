@@ -17,7 +17,7 @@ import java.net.URL;
  * Created by : Vinay Shetty
  * on 09-03-2025 at 21:18
  **/
-public class AppiumBasics extends BaseTest{
+public class AppiumBasics extends BaseTest {
     @Test
     public void firstTest() throws MalformedURLException {
         // xpath , id, classname -> by. and accessibilityid, androidUIAutomator -> AppiumBy.
@@ -26,7 +26,7 @@ public class AppiumBasics extends BaseTest{
         driver.findElement(By.id("android:id/checkbox")).click();
         driver.findElement(By.xpath("(//android.widget.RelativeLayout)[2]")).click();
         String alertTitle = driver.findElement(By.id("android:id/alertTitle")).getText();
-        Assert.assertEquals(alertTitle,"WiFi settings");
+        Assert.assertEquals(alertTitle, "WiFi settings");
         driver.findElement(By.id("android:id/edit")).sendKeys("vinay");
         driver.findElement(By.id("android:id/button1")).click();
     }
