@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fecc0e2c-53ee-4f40-88c6-1d11675d52d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/LongPressExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
       <recent name="C:\repo\MobileTestingFramework\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.LongPressExample.LongPressTest">
     <configuration name="AppiumBasics.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileTestingFramework" />
       <extension name="coverage">
@@ -69,8 +71,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LongPressExample.LongPressTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MobileTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vs" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.LongPressExample" />
+      <option name="METHOD_NAME" value="LongPressTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LongPressExample.LongPressTest" />
         <item itemvalue="TestNG.AppiumBasics.firstTest" />
       </list>
     </recent_temporary>
