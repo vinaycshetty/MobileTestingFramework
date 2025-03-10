@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fecc0e2c-53ee-4f40-88c6-1d11675d52d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/SwipeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/DragDropExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/RotateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/BaseTest.java" afterDir="false" />
     </list>
@@ -35,7 +36,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2u5E51qkgyvmT2qjfZtjlCkrzPT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,8 +55,8 @@
       <recent name="C:\repo\MobileTestingFramework\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SwipeExample.SwipeTest">
-    <configuration name="AppiumBasics.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RotateExample.rotateTest">
+    <configuration name="DragDropExample.dragDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileTestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -62,8 +65,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.vs" />
-      <option name="MAIN_CLASS_NAME" value="com.vs.AppiumBasics" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.DragDropExample" />
+      <option name="METHOD_NAME" value="dragDropTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -82,6 +85,24 @@
       <option name="PACKAGE_NAME" value="com.vs" />
       <option name="MAIN_CLASS_NAME" value="com.vs.LongPressExample" />
       <option name="METHOD_NAME" value="LongPressTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotateExample.rotateTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MobileTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vs" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.RotateExample" />
+      <option name="METHOD_NAME" value="rotateTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -127,10 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RotateExample.rotateTest" />
+        <item itemvalue="TestNG.DragDropExample.dragDropTest" />
         <item itemvalue="TestNG.SwipeExample.SwipeTest" />
         <item itemvalue="TestNG.ScrollExample.scrollTest" />
         <item itemvalue="TestNG.LongPressExample.LongPressTest" />
-        <item itemvalue="TestNG.AppiumBasics.firstTest" />
       </list>
     </recent_temporary>
   </component>
