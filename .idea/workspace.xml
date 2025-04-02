@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fecc0e2c-53ee-4f40-88c6-1d11675d52d0" name="Changes" comment="" />
+    <list default="true" id="fecc0e2c-53ee-4f40-88c6-1d11675d52d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/rough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/ToastExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/General-Store.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/AppiumBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/AppiumBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/DragDropExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/DragDropExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/LongPressExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/LongPressExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/RotateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/RotateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/ScrollExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/ScrollExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/SwipeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/SwipeExample.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,30 +53,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/repo/MobileTestingFramework/src/test/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/repo/MobileTestingFramework/src/test/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\repo\MobileTestingFramework\src\test\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vs.utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.RotateExample.rotateTest">
-    <configuration name="DragDropExample.dragDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ToastExample.toastTest">
+    <configuration name="rough" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.vs.rough" />
       <module name="MobileTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vs.*" />
+          <option name="PATTERN" value="com.vs.test.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.vs" />
-      <option name="MAIN_CLASS_NAME" value="com.vs.DragDropExample" />
-      <option name="METHOD_NAME" value="dragDropTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppiumBasics.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MobileTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vs.test.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vs.test" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.test.demoapp.AppiumBasics" />
+      <option name="METHOD_NAME" value="firstTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -69,17 +100,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongPressExample.LongPressTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vs.*" />
+          <option name="PATTERN" value="com.vs.test.storeapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.vs" />
-      <option name="MAIN_CLASS_NAME" value="com.vs.LongPressExample" />
-      <option name="METHOD_NAME" value="LongPressTest" />
+      <option name="PACKAGE_NAME" value="com.vs.test.storeapp" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.test.storeapp.LoginTest" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -91,12 +122,12 @@
       <module name="MobileTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vs.*" />
+          <option name="PATTERN" value="com.vs.test.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.vs" />
-      <option name="MAIN_CLASS_NAME" value="com.vs.RotateExample" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.test.demoapp.RotateExample" />
       <option name="METHOD_NAME" value="rotateTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -105,35 +136,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrollExample.scrollTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ToastExample.toastTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vs.*" />
+          <option name="PATTERN" value="com.vs.test.storeapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.vs" />
-      <option name="MAIN_CLASS_NAME" value="com.vs.ScrollExample" />
-      <option name="METHOD_NAME" value="scrollTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwipeExample.SwipeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MobileTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vs" />
-      <option name="MAIN_CLASS_NAME" value="com.vs.SwipeExample" />
-      <option name="METHOD_NAME" value="SwipeTest" />
+      <option name="PACKAGE_NAME" value="com.vs.test.storeapp" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.test.storeapp.ToastExample" />
+      <option name="METHOD_NAME" value="toastTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -143,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ToastExample.toastTest" />
+        <item itemvalue="TestNG.LoginTest.login" />
+        <item itemvalue="TestNG.AppiumBasics.firstTest" />
+        <item itemvalue="Application.rough" />
         <item itemvalue="TestNG.RotateExample.rotateTest" />
-        <item itemvalue="TestNG.DragDropExample.dragDropTest" />
-        <item itemvalue="TestNG.SwipeExample.SwipeTest" />
-        <item itemvalue="TestNG.ScrollExample.scrollTest" />
-        <item itemvalue="TestNG.LongPressExample.LongPressTest" />
       </list>
     </recent_temporary>
   </component>

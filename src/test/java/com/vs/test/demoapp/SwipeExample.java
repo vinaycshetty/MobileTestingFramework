@@ -1,9 +1,9 @@
-package com.vs;
+package com.vs.test.demoapp;
 
+import com.vs.test.base.BaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
  * Created by : Vinay Shetty
  * on 10-03-2025 at 10:31
  **/
-public class SwipeExample extends BaseTest{
+public class SwipeExample extends BaseTest {
  @Test
  public void SwipeTest(){
   driver.findElement(AppiumBy.accessibilityId("Views")).click();

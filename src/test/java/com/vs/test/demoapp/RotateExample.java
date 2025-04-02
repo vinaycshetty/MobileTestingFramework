@@ -1,5 +1,6 @@
-package com.vs;
+package com.vs.test.demoapp;
 
+import com.vs.test.base.BaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.DeviceRotation;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
  * Created by : Vinay Shetty
  * on 10-03-2025 at 20:01
  **/
-public class RotateExample extends BaseTest{
+public class RotateExample extends BaseTest {
  @Test
  public void rotateTest(){
   driver.findElement(AppiumBy.accessibilityId("Preference")).click();

@@ -1,6 +1,7 @@
-package com.vs;
+package com.vs.test.base;
 
 import com.google.common.collect.ImmutableMap;
+import com.vs.utils.ConfigReader;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
@@ -35,11 +36,12 @@ public class BaseTest {
 //         service = new AppiumServiceBuilder().withAppiumJS(file).withIPAddress("127.0.0.1").usingPort(4723).build();
 //        service.start();
         // two parameters to pass is one URL to appium server and options
-        URL url = new URL("http://127.0.0.1:4723");
+        ConfigReader configReader = new ConfigReader(System.getProperty("user.dir")+"//src//test//resources//config.properties");
+        URL url = new URL(configReader.getProperty("url"));
         // options
         UiAutomator2Options options = new UiAutomator2Options();
-        options.setDeviceName("VinayMobile");
-        options.setApp("C://repo//MobileTestingFramework//src//test//resources//ApiDemos-debug.apk");
+        options.setDeviceName(configReader.getProperty("deviceName"));
+        options.setApp(System.getProperty("user.dir")+configReader.getProperty("app"));
         driver = new AndroidDriver(url, options);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }

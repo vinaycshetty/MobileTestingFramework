@@ -1,7 +1,7 @@
-package com.vs;
+package com.vs.test.demoapp;
 
+import com.vs.test.base.BaseTest;
 import io.appium.java_client.AppiumBy;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 /**
