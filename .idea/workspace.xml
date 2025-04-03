@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fecc0e2c-53ee-4f40-88c6-1d11675d52d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/AddToCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/SumAmountExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +57,8 @@
       <recent name="com.vs.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddToCart.addToCartTest">
-    <configuration name="AddToCart.addToCartTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="AddToCart.addToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileTestingFramework" />
       <extension name="coverage">
         <pattern>
@@ -94,17 +94,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppiumBasics.firstTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BuyProductEndToEnd.sumAmountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileTestingFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vs.test.base.*" />
+          <option name="PATTERN" value="com.vs.test.storeapp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.vs.test" />
-      <option name="MAIN_CLASS_NAME" value="com.vs.test.demoapp.AppiumBasics" />
-      <option name="METHOD_NAME" value="firstTest" />
+      <option name="PACKAGE_NAME" value="com.vs.test.storeapp" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.test.storeapp.BuyProductEndToEnd" />
+      <option name="METHOD_NAME" value="sumAmountTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BuyProductEndToEnd.sumAmountTest" />
         <item itemvalue="TestNG.AddToCart.addToCartTest" />
         <item itemvalue="TestNG.AddToCart.addToCartTest (1)" />
         <item itemvalue="TestNG.LoginTest.login" />
         <item itemvalue="TestNG.ToastExample.toastTest" />
-        <item itemvalue="TestNG.AppiumBasics.firstTest" />
       </list>
     </recent_temporary>
   </component>
