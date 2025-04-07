@@ -40,6 +40,8 @@ public class BaseTest {
         URL url = new URL(configReader.getProperty("url"));
         // options
         UiAutomator2Options options = new UiAutomator2Options();
+        // set chromedriver exe path for hybrid app
+        options.setCapability("chromedriver_autodownload", true);
         options.setDeviceName(configReader.getProperty("deviceName"));
         options.setApp(System.getProperty("user.dir")+configReader.getProperty("app"));
         driver = new AndroidDriver(url, options);
