@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fecc0e2c-53ee-4f40-88c6-1d11675d52d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/base/MobileBrowserBaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/mobilebrowserapp/BrowserAutomatinExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/hybridAppExmple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vs/pageObject/android/FormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vs/utils/AndroidActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vs/utils/Contants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeAppWithFramework/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,25 +59,7 @@
       <recent name="com.vs.utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BrowserAutomatinExample.mobileBrowserTest">
-    <configuration name="AddToCart.addToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MobileTestingFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vs.test.storeapp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.vs.test.storeapp" />
-      <option name="MAIN_CLASS_NAME" value="com.vs.test.storeapp.AddToCart" />
-      <option name="METHOD_NAME" value="addToCartTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.LoginTest.login (1)">
     <configuration name="AddToCart.addToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileTestingFramework" />
       <extension name="coverage">
@@ -133,6 +114,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginTest.login (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MobileTestingFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vs.test.storeAppWithFramework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.vs.test.storeAppWithFramework" />
+      <option name="MAIN_CLASS_NAME" value="com.vs.test.storeAppWithFramework.LoginTest" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MobileTestingFramework" />
       <extension name="coverage">
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.login (1)" />
+        <item itemvalue="TestNG.LoginTest.login" />
         <item itemvalue="TestNG.BrowserAutomatinExample.mobileBrowserTest" />
         <item itemvalue="TestNG.hybridAppExmple.hybridAppTest" />
         <item itemvalue="TestNG.BuyProductEndToEnd.sumAmountTest" />
-        <item itemvalue="TestNG.AddToCart.addToCartTest" />
-        <item itemvalue="TestNG.LoginTest.login" />
       </list>
     </recent_temporary>
   </component>
