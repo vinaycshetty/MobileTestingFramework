@@ -1,6 +1,6 @@
 package com.vs.test.storeapp;
 
-import com.vs.test.base.BaseTest;
+import com.vs.base.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 

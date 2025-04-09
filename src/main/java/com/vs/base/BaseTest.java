@@ -1,4 +1,4 @@
-package com.vs.test.base;
+package com.vs.base;
 
 import com.google.common.collect.ImmutableMap;
 import com.vs.utils.ConfigReader;
@@ -36,7 +36,7 @@ public class BaseTest {
 //         service = new AppiumServiceBuilder().withAppiumJS(file).withIPAddress("127.0.0.1").usingPort(4723).build();
 //        service.start();
         // two parameters to pass is one URL to appium server and options
-        ConfigReader configReader = new ConfigReader(System.getProperty("user.dir")+"//src//test//resources//config.properties");
+        ConfigReader configReader = new ConfigReader(System.getProperty("user.dir")+"//src//main//resources//config.properties");
         URL url = new URL(configReader.getProperty("url"));
         // options
         UiAutomator2Options options = new UiAutomator2Options();

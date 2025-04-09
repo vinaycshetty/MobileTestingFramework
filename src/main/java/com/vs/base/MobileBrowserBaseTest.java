@@ -1,4 +1,4 @@
-package com.vs.test.base;
+package com.vs.base;
 
 import com.google.common.collect.ImmutableMap;
 import com.vs.utils.ConfigReader;
@@ -25,7 +25,7 @@ public class MobileBrowserBaseTest {
 
     @BeforeClass
     public void setup() throws MalformedURLException {
-        ConfigReader configReader = new ConfigReader(System.getProperty("user.dir") + "//src//test//resources//config.properties");
+        ConfigReader configReader = new ConfigReader(System.getProperty("user.dir") + "//src//main//resources//config.properties");
         URL url = new URL(configReader.getProperty("url"));
         // options
         UiAutomator2Options options = new UiAutomator2Options();

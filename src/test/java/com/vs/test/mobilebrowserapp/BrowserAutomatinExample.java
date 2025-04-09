@@ -1,6 +1,6 @@
 package com.vs.test.mobilebrowserapp;
 
-import com.vs.test.base.MobileBrowserBaseTest;
+import com.vs.base.MobileBrowserBaseTest;
 import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import org.openqa.selenium.By;

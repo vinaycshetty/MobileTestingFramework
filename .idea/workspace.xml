@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fecc0e2c-53ee-4f40-88c6-1d11675d52d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vs/pageObject/android/FormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vs/utils/AndroidActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vs/utils/Contants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeAppWithFramework/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vs/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/base/MobileBrowserBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vs/base/MobileBrowserBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/AppiumBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/AppiumBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/DragDropExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/DragDropExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/LongPressExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/LongPressExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/RotateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/RotateExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/ScrollExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/ScrollExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/SwipeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/demoapp/SwipeExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/mobilebrowserapp/BrowserAutomatinExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/mobilebrowserapp/BrowserAutomatinExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/storeAppWithFramework/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeAppWithFramework/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/AddToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/AddToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/BuyProductEndToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/BuyProductEndToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/ToastExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/ToastExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/hybridAppExmple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vs/test/storeapp/hybridAppExmple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vs/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vs/utils/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,18 +59,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/repo/MobileTestingFramework/src/test/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/repo/MobileTestingFramework/src/test/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\repo\MobileTestingFramework\src\test\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\repo\MobileTestingFramework\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vs.test.storeAppWithFramework" />
       <recent name="com.vs.utils" />
     </key>
   </component>

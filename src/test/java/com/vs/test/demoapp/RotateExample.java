@@ -1,6 +1,6 @@
 package com.vs.test.demoapp;
 
-import com.vs.test.base.BaseTest;
+import com.vs.base.BaseTest;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
 import org.openqa.selenium.DeviceRotation;

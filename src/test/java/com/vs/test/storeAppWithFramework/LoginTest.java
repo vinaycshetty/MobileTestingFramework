@@ -1,7 +1,7 @@
 package com.vs.test.storeAppWithFramework;
 
 import com.vs.pageObject.android.FormPage;
-import com.vs.test.base.BaseTest;
+import com.vs.base.BaseTest;
 import org.testng.annotations.Test;
 
 /**
